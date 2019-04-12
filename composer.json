@@ -1,0 +1,43 @@
+{
+	"name": "skeeks/cms-google-api",
+	"description": "Component for work with google api based on google/apiclient",
+	"keywords": ["yii", "yii2", "skeeks", "api", "component", "google"],
+    "homepage": "https://skeeks.com",
+	"type": "yii2-extension",
+	"license": "BSD-3-Clause",
+	"support": {
+        "authors": "https://cms.skeeks.com"
+    },
+	"authors": [
+        {
+            "name": "SkeekS",
+            "email": "support@skeeks.com",
+            "homepage": "https://skeeks.com"
+        },
+        {
+            "name": "Semenov Alexander",
+            "email": "semenov@skeeks.com"
+        }
+    ],
+	"require": {
+        "skeeks/cms": "^5.1.0 || dev-master",
+		"skeeks/yii2-google-api": "^2.0.0 || dev-master"
+	},
+    "autoload": {
+        "psr-4": {
+            "skeeks\\cms\\googleApi\\": "src/"
+        }
+    },
+    "extra": {
+        "config-plugin": {
+            "web": [
+                "src/config/common.php",
+                "src/config/web.php"
+            ],
+            "console": [
+                "src/config/common.php",
+                "src/config/console.php"
+            ]
+        }
+    }
+}
