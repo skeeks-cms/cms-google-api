@@ -21,7 +21,7 @@
     ],
 	"require": {
         "skeeks/cms": "^5.1.0 || dev-master",
-		"skeeks/yii2-google-api": "^2.0.0 || dev-master"
+		"skeeks/yii2-google-api": "^2.0.1 || dev-master"
 	},
     "autoload": {
         "psr-4": {
