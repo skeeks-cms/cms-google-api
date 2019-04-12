@@ -3,13 +3,11 @@ Component for work with official google api
 
 Partly wrapper over powerful official package from google — google/apiclient
 
-* [google/apiclient](https://github.com/google/google-api-php-client)
-* [google/apiclient-services](https://github.com/google/google-api-php-client-services)
-* https://console.cloud.google.com/home/dashboard
+* [skeeks/yii2-google-api](https://github.com/skeeks-semenov/yii2-google-api)
 
 
-[![Latest Stable Version](https://img.shields.io/packagist/v/skeeks/yii2-google-api.svg)](https://packagist.org/packages/skeeks/yii2-google-api)
-[![Total Downloads](https://img.shields.io/packagist/dt/skeeks/yii2-google-api.svg)](https://packagist.org/packages/skeeks/yii2-google-api)
+[![Latest Stable Version](https://img.shields.io/packagist/v/skeeks/skeeks/cms-google-api.svg)](https://packagist.org/packages/skeeks/skeeks/cms-google-api)
+[![Total Downloads](https://img.shields.io/packagist/dt/skeeks/skeeks/cms-google-api.svg)](https://packagist.org/packages/skeeks/skeeks/cms-google-api)
 
 Installation
 ------------
@@ -19,13 +17,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist skeeks/yii2-google-api "*"
+php composer.phar require --prefer-dist skeeks/skeeks/cms-google-api "*"
 ```
 
 or add
 
 ```
-"skeeks/yii2-google-api": "*"
+"skeeks/skeeks/cms-google-api": "*"
 ```
 
 
