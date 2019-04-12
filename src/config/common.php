@@ -8,10 +8,10 @@
 return [
     'components' => [
         'googleApi'         => [
-            'class' => 'skeeks\cms\googleApi\googleApi',
+            'class' => 'skeeks\cms\googleApi\GoogleApi',
         ],
         'googleApiSettings' => [
-            'class' => 'skeeks\cms\googleApi\googleApiSettings',
+            'class' => 'skeeks\cms\googleApi\GoogleApiSettings',
         ],
     ],
 ];
