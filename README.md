@@ -17,13 +17,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist skeeks/skeeks/cms-google-api "*"
+php composer.phar require --prefer-dist skeeks/skeeks/cms-google-api "^1.0.0"
 ```
 
 or add
 
 ```
-"skeeks/skeeks/cms-google-api": "*"
+"skeeks/skeeks/cms-google-api": "^1.0.0"
 ```
 
 
