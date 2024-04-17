@@ -20,7 +20,7 @@
         }
     ],
 	"require": {
-        "skeeks/cms": "^5.0 || dev-master",
+        "skeeks/cms": "^5.0 || ^6.0 || dev-master",
 		"skeeks/yii2-google-api": "^2.0 || dev-master"
 	},
     "autoload": {
